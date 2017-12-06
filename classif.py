@@ -14,11 +14,11 @@ from sklearn.metrics import precision_score
 from sklearn.metrics import f1_score
 
 #all my paths
-MODEL_PATH='/media/zeynal/Sevil Zeynali/INIST/mesdonnees/decision_tree_arbre_decision/modeles/m.pkl'
-TEST_PATH='/media/zeynal/Sevil Zeynali/INIST/mesdonnees/decision_tree_arbre_decision/vectors/2000_abstract_test_tail_vectorise_avec_fasttext.txt'
-LABEL_TEST_PATH='/media/zeynal/Sevil Zeynali/INIST/mesdonnees/decision_tree_arbre_decision/corpus/cat_test_2000_tail_3_niveaux.txt'
-PREDICTION_PATH='/media/zeynal/Sevil Zeynali/INIST/mesdonnees/decision_tree_arbre_decision/res.txt'
-TREE_PATH='/media/zeynal/Sevil Zeynali/INIST/mesdonnees/decision_tree_arbre_decision/graphes/graph'
+MODEL_PATH=''
+TEST_PATH=''
+LABEL_TEST_PATH=''
+PREDICTION_PATH=''
+TREE_PATH=''
 #Charging the model
 print "Charging the model"
 with open(MODEL_PATH, 'rb') as fin:
