@@ -11,9 +11,9 @@ import numpy as np
 from scipy.sparse import csr_matrix
 
 #all my paths
-VECTOR_PATH='/media/zeynal/Sevil Zeynali/INIST/mesdonnees/decision_tree_arbre_decision/vectors/abstract_train_eq_3_niveaux_vectorise_avec_fasttext.txt'
-LABEL_PATH='/media/zeynal/Sevil Zeynali/INIST/mesdonnees/decision_tree_arbre_decision/corpus/cat_train_eq_3_niveaux.txt'
-MODEL_PATH='/media/zeynal/Sevil Zeynali/INIST/mesdonnees/decision_tree_arbre_decision/modeles/m.pkl'
+VECTOR_PATH=''
+LABEL_PATH=''
+MODEL_PATH=''
 
 #charging my vectorized abstracts
 vct_file = genfromtxt(VECTOR_PATH, delimiter=" ",comments='#')
