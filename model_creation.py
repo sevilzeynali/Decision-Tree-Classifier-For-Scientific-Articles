@@ -30,7 +30,7 @@ with open(LABEL_PATH) as categories:
 print 'Start model creation'
 
 #start model creation
-model = DecisionTreeClassifier(max_leaf_nodes=20)
+model = DecisionTreeClassifier(max_leaf_nodes=10)
 model.fit(full_matrice, data_train_labels).classes_
 
 #saving the created model 
