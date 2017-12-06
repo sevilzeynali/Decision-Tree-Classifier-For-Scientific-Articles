@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 from sklearn.metrics import precision_score
 from sklearn.metrics import f1_score
-TEST_LABEL_PATH='/media/zeynal/Sevil Zeynali/INIST/mesdonnees/decision_tree_arbre_decision/corpus/cat_test_2000_tail_3_niveaux.txt'
-PREDICTED_LABEL_PATH='/media/zeynal/Sevil Zeynali/INIST/mesdonnees/decision_tree_arbre_decision/res.txt'
+TEST_LABEL_PATH=''
+PREDICTED_LABEL_PATH=''
 #charging labels
 with open(TEST_LABEL_PATH) as test_labels:
     y_true = test_labels.read().splitlines()
